@@ -2,6 +2,7 @@
 #include <filesystem>
 
 namespace fs = std::filesystem;
+
 auto recursiveGetFileNamesByExtension =
 [](fs::path path, const std::string extension)
 {
@@ -13,6 +14,7 @@ auto recursiveGetFileNamesByExtension =
         }
     }
 };
+
 auto main() -> int {
     fs::path p("D:\\images");
     
