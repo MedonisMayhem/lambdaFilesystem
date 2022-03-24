@@ -17,8 +17,4 @@ auto main() -> int {
     fs::path p("D:\\images");
     
     recursiveGetFileNamesByExtension(p, "jpg");
-
-
-
-    //p.is_regular_file() && 
 }
